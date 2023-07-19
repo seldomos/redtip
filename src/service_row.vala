@@ -16,9 +16,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Ketip {
+namespace Redtip {
 
-	[GtkTemplate (ui = "/com/github/hahnavi/ketip/ui/service_row.ui")]
+	[GtkTemplate (ui = "/com/github/seldomos/redtip/ui/service_row.ui")]
 	public class ServiceRow : Gtk.ListBoxRow {
 
 		[GtkChild]

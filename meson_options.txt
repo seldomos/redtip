@@ -6,7 +6,7 @@ option(
     'development',
   ],
   value: 'default',
-  description: 'The build profile for Ketip. One of "default" or "development".'
+  description: 'The build profile for Redtip. One of "default" or "development".'
 )
 
 option('docs', type : 'boolean', value : false)

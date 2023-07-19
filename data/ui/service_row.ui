@@ -76,7 +76,7 @@
       </object>
     </child>
   </object>
-  <template class="KetipServiceRow" parent="GtkListBoxRow">
+  <template class="RedtipServiceRow" parent="GtkListBoxRow">
     <property name="can-focus">False</property>
     <property name="selectable">False</property>
     <child>

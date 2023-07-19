@@ -2,7 +2,7 @@ vapi_sources = [
   'config.vapi'
 ]
 
-ketip_vala_sources = [
+redtip_vala_sources = [
   'app.vala',
   'main.vala',
   'window.vala',
@@ -13,31 +13,31 @@ ketip_vala_sources = [
   'utils.vala'
 ]
 
-ketip_sources = [
+redtip_sources = [
   vapi_sources,
-  ketip_vala_sources,
+  redtip_vala_sources,
   resources
 ]
 
-ketip_deps = [
+redtip_deps = [
   dependency('gio-2.0', version: '>= 2.50'),
   dependency('gtk+-3.0', version: '>= 3.22'),
   dependency('libhandy-1')
 ]
 
-ketip_vala_args = [
+redtip_vala_args = [
   '--target-glib', '2.50',
   '--gresources', resource_files,
 ]
 
 c_args = [
-  '-DGETTEXT_PACKAGE="ketip"',
+  '-DGETTEXT_PACKAGE="redtip"',
 ]
 
-executable('ketip', ketip_sources,
+executable('redtip', redtip_sources,
   include_directories: config_h_dir,
-  vala_args: ketip_vala_args,
+  vala_args: redtip_vala_args,
   c_args : c_args,
-  dependencies: ketip_deps,
+  dependencies: redtip_deps,
   install: true,
 )

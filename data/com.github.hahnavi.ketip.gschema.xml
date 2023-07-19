@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist gettext-domain="@GETTEXT_PACKAGE@">
-  <schema id="com.github.hahnavi.ketip" path="/com/github/hahnavi/ketip/">
+  <schema id="com.github.seldomos.redtip" path="/com/github/seldomos/redtip/">
     <key name="win-pos-x" type="i">
       <default>240</default>
       <summary>Window horizontal position</summary>

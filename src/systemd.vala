@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Ketip.Systemd {
+namespace Redtip.Systemd {
 
     [DBus (name = "org.freedesktop.systemd1.Manager")]
     public interface Manager : DBusProxy {

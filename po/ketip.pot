@@ -1,13 +1,13 @@
-# Translation template for ketip.
-# Copyright (C) 2021 ketip's COPYRIGHT HOLDER
-# This file is distributed under the same license as the ketip package.
+# Translation template for redtip.
+# Copyright (C) 2021 redtip's COPYRIGHT HOLDER
+# This file is distributed under the same license as the redtip package.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ketip main\n"
-"Report-Msgid-Bugs-To: https://github.com/hahnavi/ketip/issues\n"
+"Project-Id-Version: redtip main\n"
+"Report-Msgid-Bugs-To: https://github.com/seldomos/redtip/issues\n"
 "POT-Creation-Date: 2021-08-31 10:26+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/com.github.hahnavi.ketip.appdata.xml.in:7
-msgid "Ketip"
+#: data/com.github.seldomos.redtip.appdata.xml.in:7
+msgid "Redtip"
 msgstr ""
 
-#: data/com.github.hahnavi.ketip.appdata.xml.in:8
+#: data/com.github.seldomos.redtip.appdata.xml.in:8
 msgid "systemd Service Manager with GUI"
 msgstr ""
 
@@ -52,7 +52,7 @@ msgid "Reload List"
 msgstr ""
 
 #: data/ui/window.ui:205
-msgid "About Ketip"
+msgid "About Redtip"
 msgstr ""
 
 #: data/ui/window.ui:231

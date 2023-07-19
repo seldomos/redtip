@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Ketip {
+namespace Redtip {
 
     public static void show_error_dialog(Gtk.Window window, Error e) {
         var message_dialog = new Gtk.MessageDialog(window,

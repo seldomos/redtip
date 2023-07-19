@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
  
-namespace Ketip {
+namespace Redtip {
 
     public class App : Gtk.Application {
 
@@ -48,7 +48,7 @@ namespace Ketip {
         protected override void activate () {
             var win = app.active_window;
             if (win == null) {
-                win = new Ketip.Window (app);
+                win = new Redtip.Window (app);
             }
             win.present ();
         }

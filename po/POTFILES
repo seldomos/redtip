@@ -1,6 +1,6 @@
-data/com.github.hahnavi.ketip.desktop.in
-data/com.github.hahnavi.ketip.appdata.xml.in
-data/com.github.hahnavi.ketip.gschema.xml
+data/com.github.seldomos.redtip.desktop.in
+data/com.github.seldomos.redtip.appdata.xml.in
+data/com.github.seldomos.redtip.gschema.xml
 data/ui/service_row.ui
 data/ui/window.ui
 src/window.vala

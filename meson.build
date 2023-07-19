@@ -1,4 +1,4 @@
-project('ketip', ['c', 'vala'],
+project('redtip', ['c', 'vala'],
           version: '0.1.0',
     meson_version: '>= 0.50.0',
   default_options: [ 'warning_level=2',
@@ -18,11 +18,11 @@ else
   profile = ''
 endif
 
-app_id = 'com.github.hahnavi.ketip@0@'.format(profile)
+app_id = 'com.github.seldomos.redtip@0@'.format(profile)
 
 conf = configuration_data()
 conf.set_quoted('APP_ID', app_id)
-conf.set_quoted('G_LOG_DOMAIN', 'com.github.hahnavi.ketip@0@'.format(profile))
+conf.set_quoted('G_LOG_DOMAIN', 'com.github.seldomos.redtip@0@'.format(profile))
 conf.set_quoted('NAME_SUFFIX', name_suffix)
 conf.set_quoted('PACKAGE_NAME', meson.project_name())
 conf.set_quoted('PACKAGE_VERSION', meson.project_version())

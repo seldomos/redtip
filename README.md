@@ -1,10 +1,14 @@
-# Ketip
+# Redtip
 
-Ketip is a systemd Service Manager.
+Redtip is a systemd Service Manager(fork Ketip).
 
 ![screenshot](data/screenshot.png?raw=true)
 
-## Building and Installation
+## Building and Installation(auto for RedOS)
+
+Run `sudo ./install-script.sh` to auto-install all packages and building programm
+
+## Building and Installation(manually)
 
 Run `meson` to configure the build environment and then `ninja` to build
 

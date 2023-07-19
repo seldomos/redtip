@@ -21,7 +21,7 @@ int main (string[] args) {
     Intl.bind_textdomain_codeset (Config.GETTEXT_PACKAGE, "UTF-8");
     Intl.textdomain (Config.GETTEXT_PACKAGE);
 
-	var app = new Ketip.App ();
+	var app = new Redtip.App ();
 
 	var exit_status = app.run (args);
 

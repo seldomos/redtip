@@ -16,9 +16,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-namespace Ketip {
+namespace Redtip {
 
-	[GtkTemplate (ui = "/com/github/hahnavi/ketip/ui/window.ui")]
+	[GtkTemplate (ui = "/com/github/seldomos/redtip/ui/window.ui")]
 	public class Window : Hdy.ApplicationWindow {
 
 		[GtkChild]
@@ -107,11 +107,11 @@ namespace Ketip {
 					"authors", authors,
 					"copyright", "Copyright \xc2\xa9 2021 Abdul Munif Hanafi",
 					"license-type", Gtk.License.GPL_3_0,
-					"program-name", "Ketip",
+					"program-name", "Redtip",
 					"comments", _("systemd Service Manager"),
 					"logo-icon-name", Config.APP_ID,
 					"version", Config.VERSION,
-					"website", "https://github.com/hahnavi/ketip"
+					"website", "https://github.com/seldomos/redtip"
 				);
 			});
 

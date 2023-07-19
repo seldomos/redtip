@@ -202,7 +202,7 @@
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <property name="receives-default">True</property>
-            <property name="text" translatable="yes">About Ketip</property>
+            <property name="text" translatable="yes">About Redtip</property>
           </object>
           <packing>
             <property name="expand">False</property>
@@ -213,11 +213,11 @@
       </object>
     </child>
   </object>
-  <template class="KetipWindow" parent="HdyApplicationWindow">
+  <template class="RedtipWindow" parent="HdyApplicationWindow">
     <property name="can-focus">False</property>
     <property name="default-width">640</property>
     <property name="default-height">480</property>
-    <property name="title">Ketip</property>
+    <property name="title">Redtip</property>
     <child>
       <object class="GtkBox" id="main_box">
         <property name="visible">True</property>
@@ -227,7 +227,7 @@
           <object class="HdyHeaderBar" id="header_bar">
             <property name="visible">True</property>
             <property name="can-focus">False</property>
-            <property name="title">Ketip</property>
+            <property name="title">Redtip</property>
             <property name="subtitle" translatable="yes">systemd Service Manager</property>
             <property name="show-close-button">True</property>
             <child>

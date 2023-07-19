@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=Ketip
-Exec=ketip
-Icon=com.github.hahnavi.ketip
+Name=Redtip
+Exec=redtip
+Icon=com.github.seldomos.redtip
 Terminal=false
 Type=Application
 Categories=GNOME;GTK;System;

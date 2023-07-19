@@ -1,11 +1,11 @@
-resource_files = files ('ketip.gresource.xml')
-resources = gnome.compile_resources('com.github.hahnavi.ketip', resource_files,
+resource_files = files ('redtip.gresource.xml')
+resources = gnome.compile_resources('com.github.seldomos.redtip', resource_files,
   c_name: 'resources'
 )
 
 desktop_file = i18n.merge_file(
-  input: 'com.github.hahnavi.ketip.desktop.in',
-  output: 'com.github.hahnavi.ketip.desktop',
+  input: 'com.github.seldomos.redtip.desktop.in',
+  output: 'com.github.seldomos.redtip.desktop',
   type: 'desktop',
   po_dir: '../po',
   install: true,
@@ -20,8 +20,8 @@ if desktop_utils.found()
 endif
 
 appstream_file = i18n.merge_file(
-  input: 'com.github.hahnavi.ketip.appdata.xml.in',
-  output: 'com.github.hahnavi.ketip.appdata.xml',
+  input: 'com.github.seldomos.redtip.appdata.xml.in',
+  output: 'com.github.seldomos.redtip.appdata.xml',
   po_dir: '../po',
   install: true,
   install_dir: join_paths(get_option('datadir'), 'appdata')
@@ -34,7 +34,7 @@ if appstream_util.found()
   )
 endif
 
-install_data('com.github.hahnavi.ketip.gschema.xml',
+install_data('com.github.seldomos.redtip.gschema.xml',
   install_dir: join_paths(get_option('datadir'), 'glib-2.0/schemas')
 )
 
