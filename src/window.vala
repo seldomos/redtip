@@ -101,11 +101,11 @@ namespace Redtip {
 				reload_list();
 			});
 			menu_main_about.clicked.connect(() => {
-				string[] authors = { "Abdul Munif Hanafi" };
+				string[] authors = { "Kuvaldin Alexander (fork Abdul Munif Hanafi)" };
 				Gtk.show_about_dialog (
 					this,
 					"authors", authors,
-					"copyright", "Copyright \xc2\xa9 2021 Abdul Munif Hanafi",
+					"copyright", "Copyright \xc2\xa9 2023 Kuvaldin Alexander",
 					"license-type", Gtk.License.GPL_3_0,
 					"program-name", "Redtip",
 					"comments", _("systemd Service Manager"),
