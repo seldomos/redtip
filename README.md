@@ -24,3 +24,7 @@ To install, use `ninja install`
 To uninstall, use `ninja uninstall`
 
     sudo ninja uninstall
+
+## Acknowledgements
+
+Thanks to author [hahnavi](https://github.com/hahnavi/), and thanks to [JetBrains](https://www.jetbrains.com) for supporting the [free Open Source License](https://www.jetbrains.com/buy/opensource)
