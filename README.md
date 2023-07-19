@@ -5,7 +5,7 @@ Redtip is a systemd Service Manager(fork Ketip).
 ![screenshot](https://i.imgur.com/FHe9A38.png)
 
 ## Building and Installation(auto for RedOS) - recommend
-At first run `sudo chmod a+x install-script.sh`,
+At first run `sudo chmod a+x install-script.sh` ;
 
 After run `sudo ./install-script.sh` to auto-install all packages and building programm
 
