@@ -2,7 +2,7 @@
 
 Redtip is a systemd Service Manager(fork Ketip).
 
-![screenshot](data/screenshot.png?raw=true)
+![screenshot](https://i.imgur.com/FHe9A38.png)
 
 ## Building and Installation(auto for RedOS) - recommend
 At first run `sudo chmod a+x install-script.sh`,
