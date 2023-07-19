@@ -1,6 +1,6 @@
 # Redtip
 
-Redtip is a systemd Service Manager(fork Ketip).
+Redtip is a systemd Service Manager(fork [Ketip](https://github.com/hahnavi/ketip)).
 
 ![screenshot](https://i.imgur.com/FHe9A38.png)
 
